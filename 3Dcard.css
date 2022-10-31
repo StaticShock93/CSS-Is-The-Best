@@ -1,0 +1,38 @@
+.container {
+    padding: 50px;
+}
+
+.card {
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+     -webkit-transform-style: preserve-3d;
+     transition: transform 1s ease-in-out;
+    width: 200px;
+}
+
+.card-face {
+    align-items: center;
+    border: solid 5px black;
+    color: white;
+    display: flex;
+    font-size: 40px;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+}
+
+.card-face--front {
+    background-color: #00f;
+}
+
+.card-face--back {
+    background-color: #ffa500;
+    transform: rotateY(180deg);
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+}
