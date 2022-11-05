@@ -1,5 +1,5 @@
 .container {
-    padding: 100px;
+    padding: 200px;
 }
 
 .cube {
@@ -7,7 +7,7 @@
     width: 200px;
     position: relative;
     transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
+    /* -webkit-transform-style: preserve-3d; */
     animation: spin-cube 5s forwards infinite linear;
 }
 
