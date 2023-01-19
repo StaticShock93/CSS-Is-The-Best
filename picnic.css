@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+    /* width: 100vw; */
+  }
+  .sky {
+    width: 100vw;
+    height: 60vh;
+    background: #1E92FF;
+    position: relative;
+  }
+  .grass {
+    width: 100vw;
+    height: 13vh;
+    background: #69D10A;
+  }
+  .dirt {
+    width: 100vw;
+    height: 27vh;
+    background: #6F6100;
+  }
+ .tree-container {
+   position: absolute;
+   top: 50.7vh;
+   left: 33vw;
+ }
+  .tree {
+    position: relative;
+  }
+  .tree-bark {
+    height: 65px;
+    width: 20px;
+    background-color: #441A0A;
+  }
+  .tree-top-container {
+    min-height: 40px;
+    min-width: 70px;
+    /* background-color: gray; */
+    position: absolute;
+    bottom: 10vh;
+    left: -1vw;
+/*     border-radius: 50%; */
+  }
+  
+  .tree {
+    position: relative;
+  }
+  
+  .tree-top-center {
+    height: 50px;
+    width: 50px;
+    background-color: #69D10A;
+    position: absolute;
+    left: 3%;
+    bottom: 1;
+    border-radius: 50%;
+  }
+  .tree-top-right {
+    height: 40px;
+    width: 40px;
+    background-color: #69D10A;
+    position: absolute;
+    left: 40%;
+    bottom: -5%;
+    border-radius: 50%;
+  }
+  .tree-top-left {
+    height: 40px;
+    width: 40px;
+    background-color: #69D10A;
+    position: absolute;
+    right: 63%;
+    bottom: -5%;
+    border-radius: 50%;
+  }
+  .tree-top-head {
+    height: 40px;
+    width: 40px;
+    background-color: #69D10A;
+    /* background-color: red; */
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+    border-radius: 50%;
+  }
+  .snowman-bottom {
+    height: 40px;
+    width: 40px;
+    background-color: #69D10A;
+    border-radius: 50%;
+    position: absolute;
+    left: 68vw;
+    top: 55.5vh;
+  }
+  .snowman-top {
+    height: 40px;
+    width: 40px;
+    background-color: #69D10A;
+    border-radius: 50%;
+    position: absolute;
+    left: 68vw;
+    top: 52vh;
+  }
