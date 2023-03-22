@@ -100,9 +100,9 @@ ul {
 	animation: ball-3 1s linear .85s infinite;
 }
 .ball-12 {
-	background-color: paleturquoise;
+	background-color: crimson;
 	border-radius: 50%;
-	animation: ball-3 4.75s linear .25s infinite;
+	animation: ball-3 .75s linear .25s infinite;
 }
 .ball-13 {
 	background-color: slateblue;
