@@ -1,0 +1,42 @@
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #09042a;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+}
+
+.circle-left{
+	height: 250px;
+	width: 250px;
+    background-color: #7b3761;
+    border-radius: 50%;
+    position: absolute;
+    right: -25px;
+}
+
+.circle-middle {
+    background-color: #09042a;
+    height: 185px;
+	width: 80px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    left: -55px;
+    top: 35px;
+}
+
+.circle-right{
+    background-color: #e78481;
+    height: 250px;
+	width: 250px;
+    border-radius: 50%;
+    position: absolute;
+    left: -50px;
+}
+
