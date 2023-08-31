@@ -1,0 +1,31 @@
+body {
+    /* width: 100vw; */
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to 
+    bottom, #D25B70 50%, #6CB3A9 50%);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+  }
+
+  .line-breaks {
+     position: absolute;
+     top: 48.4%;
+     width: 100%;
+  }
+  hr {
+    height: 2.1rem;
+    margin-bottom: 5%;
+    background: #6CB3A9;
+    outline: none;
+    border: none;
+  }
+
+.circle {
+  position: relative;
+  height:500px;
+  width: 500px;
+  background: linear-gradient(to bottom, #F6DF96 50%, #6CB3A9 5%, #F6DF96 45%);
+  border-radius: 50%;
+}
